@@ -1,0 +1,158 @@
+header .nav-link {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* INDEX.HTML */
+@media only screen and (min-width: 280px) and (max-width: 568px) {
+    #informacoes {
+        margin: auto;
+        width: 100%;
+    }
+
+    #textoHistoria {
+        font-size: 1.2rem;
+    }
+
+    #textoHistoria2 {
+        font-size: 1.2rem;
+    }
+
+    #paragrafoHistoria {
+        font-size: 0.9rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        font-weight: 400;
+    }
+
+    #textoCarousel {
+        font-size: 1.5rem;
+    }
+
+    .cotacao p {
+        font-size: 1rem;
+    }
+
+    #paragrafoPerfil {
+        font-size: 1rem;
+        text-align: justify;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .perfil img {
+        margin: auto;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 568px) {
+    /* FOOTER */
+    #rodape {
+        font-family: 'Vibes', cursive;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    #textoRodape {
+        font-family: 'Potta One', cursive;
+        font-size: smaller;
+    }
+
+    /* ICONE DO WHATSAPP */
+    #iconeZap {
+        height: 50px;
+        bottom: 50px;
+    }
+
+    /* A EMPRESA.HTML */
+    #tituloTrajetoria {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    #descricaoSocoletas {
+        font-size: 0.8rem;
+    }
+    
+    #textEmpresa {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+}
+
+/* SERVICOS.HTML */
+@media only screen and (min-width: 280px) and (max-width: 568px) {
+    #imgLotacao {
+        margin: auto;
+        width: 100%;
+    }
+
+    #imgFracionada {
+        margin: auto;
+        width: 100%;
+    }
+
+    #imgDedicados {
+        margin: auto;
+        width: 100%;
+    }
+
+    #imgArmazenagem {
+        margin: auto;
+        width: 100%;
+    }
+
+    #imgPaletização {
+        margin: auto;
+        width: 100%;
+    }
+
+    #imgAtendimento {
+        margin: auto;
+        width: 100%;
+    }
+
+    #cabecalho {
+        display: block;
+        margin-left: 5%;
+    }
+
+    #cabecalho div div h1 {
+        font-size: 1.2rem;
+    }
+
+    #cabecalho div div h1 img {
+        width: 25%;
+    }
+
+    .card-header h2 { 
+        font-size: 1.5rem;
+        font-family: Kufam, "cursive";
+        font-weight: 900;
+    }
+
+    .card-body {
+        font-family: Kufam, "cursive";
+        text-align: justify;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+}
+
+/* CONTATO.HTML */
+@media only screen and (min-width: 280px) and (max-width: 568px) {
+    #orcamento h2 {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+
+    #orcamento p {
+        font-size: 0.7rem;
+        text-align: justify;
+    }
+}

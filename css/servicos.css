@@ -1,0 +1,72 @@
+/* ESTILIZAÇÃO DA PÁGINA DE SERVIÇOS */
+#cabecalho div div h1 img {
+    height: 10%;
+    width: 10%;
+}
+
+#cabecalho {
+    display: block;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+#cabecalho div div h1 {
+    color: white;
+    font-family: Kufam, cursive;
+}
+
+#cargaLotacao {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#cargaFracionada {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#veiculosDedicados {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#armazenagem {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#paletizacao {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#atendimento {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-header h2 { 
+    font-size: 2.2rem;
+    font-family: Kufam, "cursive";
+    font-weight: 900;
+}
+
+.card-body {
+    font-family: Kufam, "cursive";
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card-body img {
+    margin-left: 20px;
+}
+
+#servicos {
+    color: red;
+}
+
+#inicio {
+    color: white;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SOCOLETAS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bangers&family=Potta+One&family=Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div  class="col-sm-4 col-md-12 col-lg-12"> 
+                    <nav class="navbar navbar-expand-md navbar-light navbar-thumbnail" id="navegacao">
+                        <!--<a href="#" class="navbar-brand">HOME</a>-->
+                        <img src="./img/logo02.png" alt="LOGO PRINCIPAL" class="d-inline-block"  id="logoPrincipal">
+
+                        <button id="buttonIcon" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSite"> 
+                            <ul class="nav navbar-nav ml-auto" id="links"> 
+                                <li class="nav-item h2">
+                                    <a href="index.html" class="nav-link" id="inicio">INÍCIO</a>
+                                </li>
+                                <li class="nav-item ml-3 h2">
+                                    <a href="empresa.html" class="nav-link" id="empresa">A EMPRESA</a>
+                                </li>
+                                <li class="nav-item ml-3 h2">
+                                    <a href="servicos.html" class="nav-link" id="servicos">SERVIÇOS</a>
+                                </li>
+                                <li class="nav-item ml-3 h2">
+                                    <a href="#contato" class="nav-link" id="contato">CONTATO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mt-5 mb-1">
+        <div class="row">
+            <div class="col-sm-4 col-md-12 col-lg-12 text-center mt-5">
+                <div id="orcamento">
+                    <h2>REALIZE SUA COTAÇÃO</h2>
+                    <p class="mt-2">REALIZE DE FORMA SIMPLES E RÁPIDA SUA COTAÇÃO E SAIBA O VALOR DO TRANSPORTE DA SUA CARGA OU DOCUMENTO</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-2" id="mensagem">
+        <div class="box">        
+            <div class="col-sm-12 col-md-12 col-lg-12" id="fundoForm">
+                <form action="https://formspree.io/f/myylwzkv" method="POST" target="_blank">
+                    <div class="col-sm-12 col-md-12 col-lg-12 mt-5 form-row" id="txtLabel">
+                        <h4>Informe os dados da Empresa:</h4>
+                        <div class="form-group col-md-12">
+                            <label for="empresa" id="nomeEmpresa">Empresa</label>
+                            <input type="text" class="form-control" placeholder="Nome da Empresa" name="empresa" id="nomeEmpresa" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="nome" id="nomeContato">Nome do Contato</label>
+                            <input type="text" class="form-control" placeholder="Nome do Contato" name="nome" id="nome" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="email" id="email">Email</label>
+                            <input type="email" class="form-control" placeholder="Email" name="email" id="email" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="telefone" id="numTelefone">telefone</label>
+                            <input type="tel" class="form-control" placeholder="Telefone" name="telefone" id="telefone" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="cnpjRemetente" id="cnpjRemetente">CNPJ Remetente</label>
+                            <input type="text" class="form-control" placeholder="CNPJ Remetente" name="cnpjRemetente" id="remetente" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="cnpjDestinatario" id="cnpjDestinatario">CNPJ Destinatário</label>
+                            <input type="text" class="form-control" placeholder="CNPJ Destinatário" name="cnpjDestinatario" id="destinatario" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="cnpjPagador" id="cnpjPagador">CNPJ Pagador</label>
+                            <input type="text" class="form-control" placeholder="CNPJ Pagador" name="cnpjPagador" id="pagador" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="whatsapp" id="zap">WhatsApp</label>
+                            <input type="tel" class="form-control" placeholder="WhatsApp" name="whatsapp" id="whatsapp" required>
+                        </div>
+                        <h4>Informe os dados da Carga:</h4>
+                        <div class="form-group col-md-12">
+                            <label for="origem" id="origemMercadoria">Origem</label>
+                            <input type="text" class="form-control" placeholder="Origem" name="origem" id="origem" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="destino" id="enderecoFinal">Destino</label>
+                            <input type="text" class="form-control" placeholder="Destino" name="destino" id="endereco" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="produto" id="mercadoria">Produto</label>
+                            <input type="text" class="form-control" placeholder="Produto" name="produto" id="produto" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="peso" id="pesoMercadoria">Peso(Kg)</label>
+                            <input type="number" class="form-control" placeholder="Peso(Kg)" name="peso" id="peso" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="notaFiscal" id="valorNF">Valor da Nota Fiscal</label>
+                            <input type="number" class="form-control" placeholder="Valor da Nota Fiscal" name="notaFiscal" id="notaFiscal">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="quantidade" id="quantidadeProdutos">Quantidade</label>
+                            <input type="number" class="form-control" placeholder="Quantidade" name="quantidade" id="quantidade" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="dimensoes" id="dimesaoProduto">Dimensões</label>
+                            <input type="text" class="form-control" placeholder="Dimensões" name="dimensoes" id="dimensoes" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="textArea" id="message">Observação</label>
+                            <textarea class="form-control" rows="6" id="comment" name="comment" placeholder="Descreva qual serviço você precisa, COLETA OU DISTRIBUIÇÃO que em breve entraremos em contato." required></textarea>
+                        </div>
+                        <button class="btn mb-2" id="botaoEnviar" type="submit">
+                            Solicitar Cotação
+                        </button>
+                        <button class="btn mb-2" id="botaoEnviar" type="reset">
+                            Limpar Campos
+                        </button>
+                    </div>
+                </form>
+            </div>                   
+        </div>
+    </div>   
+
+    <!-- FOOTER REDES SOCIAIS CONTATO -->
+    <div class="container mt-2 mb-2">
+        <div class="row">
+            <div class="col-sm-4 col-md-12 col-lg-12 text-center mt-3">
+                <footer id="rodape">
+                    <h2 id="textoRodape">SÓCOLETAS RAPIDEZ, SEGURANÇA E EFICÁCIA</h2>
+                    <a href="#" class="fa fa-facebook mx-1 inline-block" target="_blank"></a>
+                    <a href="#" class="fa fa-twitter mx-1 inline-block" target="_blank"></a>
+                    <a href="#" class="fa fa-instagram mx-1 inline-block" target="_blank"></a>
+                    <h2 id="rodape" class="mt-2"><img src="./img/rosto_fox4x4.png" alt="Logo Desenvolvedor"> Sérgio Campos - FOXK13IT TECNOLOGIA &amp; INOVAÇÃO &reg;</h2>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5511941595643" target="_blank">
+        <img src="./img/icone_whatsapp.png" id="iconeZap" alt="Icone Whatsapp">
+    </a>
+
+    <script src="https://kit.fontawesome.com/0ae697bb3e.js" crossorigin="anonymous"></script>
+    <script src="./js/contato.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="contato.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+#botaoEnviar {
+    display: block;
+    float: right;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-right: 10px;
+}
+
+#botaoEnviar:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#txtLabel {
+    font-family: 'Bangers', cursive;
+    color: white;
+    font-size: 2em;
+    padding: 5%;
+}
+
+#fundoForm {
+    background-image: url("../img/OLO2ED0.jpg");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+  }
+
+body {
+    margin: 0px;
+}
+
+#formCotacao div h4 {
+    color: red;
+}
+
+#contato {
+    color: red;
+}
+
+#inicio {
+    color: white;
+}

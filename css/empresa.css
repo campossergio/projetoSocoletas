@@ -1,0 +1,47 @@
+/* ESTILIZAÇÃO DA PÁGINA A EMPRESA */
+#trajetoria {
+    /*
+    background: black;
+    border: red solid 3px;
+    border-radius: 10px;
+    */
+    font-size: 1.5rem;
+}
+
+#descricaoSocoletas {
+    font-family: Kufam;
+    font-weight: 500;
+}
+
+#textoCards {
+    font-family: Kufam;
+    font-weight: 900;
+    text-align: justify;
+}
+
+#tituloTrajetoria {
+    color: red;
+    font-size: 2rem;
+    background: black;
+    border: red solid 2px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card-text {
+    font-size: 1.2rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#empresa {
+    color: red;
+}
+
+#inicio {
+    color: white;
+}

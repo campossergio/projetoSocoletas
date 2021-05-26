@@ -1,0 +1,224 @@
+/* FOLHA DE ESTILO PRINCIPAL */
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fundoAzul.png);
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+header .nav-link {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: Kufam;
+    src: url(../fonts/Kufam/Kufam-VariableFont_wght.ttf);
+}
+
+header {
+    font-family: Kufam;
+}
+
+#inicio {
+    color: red;
+}
+
+#empresa {
+    color: white;
+}
+
+#servicos {
+    color: white;
+}
+
+#contato {
+    color: white;
+}
+
+#logoPrincipal {
+    border-radius: 25%;
+}
+
+#textoCarousel {
+    font-family: 'Potta One', cursive;
+}
+
+#paragrafo {
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#missaoValoresVisao {
+    font-family: 'Acme', sans-serif;
+}
+
+#navegacao {
+    background: rgb(1, 0, 22);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 26%, rgba(9,17,127,1) 30%, rgba(0,212,255,1) 100%);
+}
+
+#botaoNav {
+    border: 1rem;
+    border-color: black;
+}
+
+#links li a {
+    padding: 10px 10px;
+    font-weight: bolder;
+    text-align: end;
+}
+
+.grid {
+    display: grid;
+}
+
+.historia {
+    grid-area: historia;
+}
+
+.cotacao {
+    grid-area: cotacao;
+}
+
+.perfil {
+    grid-area: perfil;;
+}
+
+.grid-template-areas-1 {
+    grid-template-areas: 
+        "historia historia historia"
+        "cotacao cotacao cotacao"
+        "perfil perfil perfil"
+        ;
+}
+
+.item {
+    margin: 2px;
+    background: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.historia {
+    background-image: url(../img/foto_grid_historia.png);
+    background: cover;
+}
+
+#textoHistoria {
+    font-family: 'Potta One', cursive;
+    color: white;
+}
+
+#textoHistoria2 {
+    font-family: 'Potta One', cursive;
+    color: black;
+}
+
+#paragrafoHistoria {
+    font-family: 'Acme', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+#citacao {
+    float: right;
+    margin-right: 10%;
+}
+
+.cotacao {
+    background-image: url(../img/foto_grid_cotacao.png);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#paragrafoCotacao {
+    font-family: 'Acme', sans-serif;
+    font: 900;
+}
+
+.perfil {
+    background-color: rgb(212, 116, 5);
+}
+
+#paragrafoPerfil {
+    font-family: 'Acme', sans-serif;
+
+}
+
+.grid {
+    margin: 0 auto;
+}
+
+#rodape {
+    font-family: 'Vibes', cursive;
+    font-weight: 900;
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+#textoRodape {
+    font-family: 'Potta One', cursive;
+}
+
+#orcamento {
+    font-family: 'Potta One', cursive;
+    color: white;
+}
+
+#iconeZap {
+    height: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    z-index: 100;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 25%;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    color: black;
+    text-decoration: none;
+    background: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+
+
+
